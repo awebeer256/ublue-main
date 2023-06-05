@@ -2,8 +2,6 @@
     "all": {
         "include": {
             "all": [
-                "apr",
-                "apr-util",
                 "distrobox",
                 "ffmpeg",
                 "ffmpeg-libs",
@@ -14,7 +12,6 @@
                 "just",
                 "kernel-devel-matched",
                 "kernel-tools",
-                "libratbag-ratbagd",
                 "libva-intel-driver",
                 "libva-utils",
                 "lshw",
