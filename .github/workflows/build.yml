@@ -1,7 +1,7 @@
 name: build-ublue
 on:
   pull_request:
-  merge_group:    
+  merge_group:
   schedule:
     - cron: '0 7 * * *'  # 7 am everyday
   workflow_dispatch:
@@ -20,8 +20,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        image_name: [silverblue, kinoite, vauxite, sericea, base, lxqt, mate]
-        major_version: [37, 38]
+        # image_name: [silverblue, kinoite, vauxite, sericea, base, lxqt, mate]
+        image_name: [kinoite, sericea, base]
+        major_version: [38]
         include:
           - major_version: 37
             is_latest_version: false
@@ -34,7 +35,7 @@ jobs:
           # When F38 is added, sericea will automatically be built too
           - image_name: sericea
             major_version: 37
-    steps: 
+    steps:
       # Checkout push-to-registry action GitHub repository
       - name: Checkout Push to Registry action
         uses: actions/checkout@v3
@@ -176,4 +177,3 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           echo "${{ toJSON(steps.push.outputs) }}"
-
