@@ -13,7 +13,7 @@ ADD post-install.sh /tmp/post-install.sh
 ADD packages.json /tmp/packages.json
 
 COPY --from=ghcr.io/awebeer256/ublue-config:latest /rpms /tmp/rpms
-COPY --from=ghcr.io/ublue-os/akmods:${FEDORA_MAJOR_VERSION} /rpms /tmp/akmods-rpms
+#COPY --from=ghcr.io/ublue-os/akmods:${FEDORA_MAJOR_VERSION} /rpms /tmp/akmods-rpms
 
 RUN /tmp/build.sh
 RUN /tmp/post-install.sh
