@@ -1,5 +1,6 @@
 Name,Category,Rdepends,Status
 apr,Library,???,Remove
 apr-util,Library,???,Remove
+fish,Shell,,Add
 libratbag-ratbagd,Devices,,Remove
 openrgb-udev-rules,Devices,,Test

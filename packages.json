@@ -5,6 +5,7 @@
                 "distrobox",
                 "ffmpeg",
                 "ffmpeg-libs",
+                "fish",
                 "fzf",
                 "grub2-tools-extra",
                 "htop",
