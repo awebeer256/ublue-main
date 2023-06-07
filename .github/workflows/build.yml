@@ -1,6 +1,19 @@
 name: build-ublue
 on:
   pull_request:
+    paths-ignore:
+      - "**.md"
+      - "**.txt"
+      - "**.gitignore"
+      - "**.gitkeep"
+      - ".github/ISSUE_TEMPLATE/**.yml"
+  push:
+    paths-ignore:
+      - "**.md"
+      - "**.txt"
+      - "**.gitignore"
+      - "**.gitkeep"
+      - ".github/ISSUE_TEMPLATE/**.yml"
   merge_group:
   schedule:
     - cron: '0 7 * * *'  # 7 am everyday
