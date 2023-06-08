@@ -1,6 +1,7 @@
-Name,Category,Rdepends,Status
-apr,Library,???,Remove
-apr-util,Library,???,Remove
-fish,Shell,,Add
-libratbag-ratbagd,Devices,,Remove
-openrgb-udev-rules,Devices,,Test
+Name,Category,Rdepends,Provides,Status
+apr,Library,???,,Remove
+apr-util,Library,???,,Remove
+fish,Shell,,,Add
+libratbag-ratbagd,Devices,,,Remove
+openrgb-udev-rules,Devices,,,Test
+util-linux-user,Utilities,,chsh,Add

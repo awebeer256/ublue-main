@@ -29,6 +29,7 @@
                 "tcpdump",
                 "tmux",
                 "traceroute",
+                "util-linux-user",
                 "vim",
                 "zstd",
                 "wireguard-tools"
