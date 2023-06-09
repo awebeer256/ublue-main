@@ -11,6 +11,7 @@ ARG FEDORA_MAJOR_VERSION="${FEDORA_MAJOR_VERSION}"
 ADD build.sh /tmp/build.sh
 ADD post-install.sh /tmp/post-install.sh
 ADD packages.json /tmp/packages.json
+ADD self-packaged /tmp/self-packaged
 
 COPY --from=ghcr.io/awebeer256/ublue-config:latest /rpms /tmp/rpms
 #COPY --from=ghcr.io/ublue-os/akmods:${FEDORA_MAJOR_VERSION} /rpms /tmp/akmods-rpms
