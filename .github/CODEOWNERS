@@ -1,1 +1,25 @@
-* @castrojo
+# @awebeer256: Not really what this file is for, but whatever 🤷.
+
+/.github/ISSUE_TEMPLATE/config.yml              @castrojo
+/.github/ISSUE_TEMPLATE/feature_request.yml     @castrojo
+/.github/ISSUE_TEMPLATE/iso.yml                 @castrojo
+/.github/dependabot.yml                         @castrojo
+/.github/semantic.yml                           @castrojo
+/CHANGELOG.md                                   @castrojo
+/CODE_OF_CONDUCT.md                             @castrojo
+/CONTRIBUTING.md                                @castrojo
+/boot_menu.yml                                  @castrojo
+/post-install.sh                                @castrojo
+
+/.github/workflows/build.yml                    @castrojo @awebeer256
+/.github/workflows/release-please.yml           @castrojo @awebeer256
+/.gitignore                                     @castrojo @awebeer256
+/Containerfile                                  @castrojo @awebeer256
+/README.md                                      @castrojo @awebeer256
+/build.sh                                       @castrojo @awebeer256
+/packages.json                                  @castrojo @awebeer256
+
+/cosign.pub                                     @awebeer256
+/LICENSE                                        @awebeer256
+/package-changes.csv                            @awebeer256
+/self-packaged/p10k-meslo-lgs-nerd-font.spec    @awebeer256
