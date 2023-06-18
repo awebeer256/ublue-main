@@ -3,7 +3,10 @@ apr,Library,???,,Remove
 apr-util,Library,???,,Remove
 fish,Shell,,,Add
 kate,Apps,,,Add
+keychain,Utilities,,,Add
 libratbag-ratbagd,Devices,,,Remove
 micro,Utilities,,,Add
 openrgb-udev-rules,Devices,,,Test
 util-linux-user,Utilities,,chsh,Add
+zram-generator,Config,,[swap],Remove
+zram-generator-defaults,Config,zram-generator,[swap],Remove
