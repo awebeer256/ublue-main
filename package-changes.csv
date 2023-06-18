@@ -3,5 +3,6 @@ apr,Library,???,,Remove
 apr-util,Library,???,,Remove
 fish,Shell,,,Add
 libratbag-ratbagd,Devices,,,Remove
+micro,Utilities,,micro,Add
 openrgb-udev-rules,Devices,,,Test
 util-linux-user,Utilities,,chsh,Add

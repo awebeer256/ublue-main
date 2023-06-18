@@ -17,6 +17,7 @@
                 "libva-utils",
                 "lshw",
                 "mesa-va-drivers-freeworld",
+                "micro",
                 "net-tools",
                 "nvme-cli",
                 "nvtop",
