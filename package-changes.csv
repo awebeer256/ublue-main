@@ -2,7 +2,8 @@ Name,Category,Rdepends,Provides,Status
 apr,Library,???,,Remove
 apr-util,Library,???,,Remove
 fish,Shell,,,Add
+kate,Apps,,,Add
 libratbag-ratbagd,Devices,,,Remove
-micro,Utilities,,micro,Add
+micro,Utilities,,,Add
 openrgb-udev-rules,Devices,,,Test
 util-linux-user,Utilities,,chsh,Add
