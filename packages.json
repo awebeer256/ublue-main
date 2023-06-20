@@ -42,7 +42,8 @@
             ],
             "kinoite": [
                 "kate",
-                "ksshaskpass"
+                "ksshaskpass",
+                "nodejs-bash-language-server"
             ],
             "lxqt": [
                 "breeze-cursor-theme",
