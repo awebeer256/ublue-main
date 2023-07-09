@@ -2,11 +2,15 @@ Name,Category,Rdepends,Provides,Status
 apr,Library,???,,Remove
 apr-util,Library,???,,Remove
 fish,Shell,,,Add
+gamescope,Utilities,"steam, lutris",,Add
 kate,Apps,,,Add
 keychain,Utilities,,,Add
 libratbag-ratbagd,Devices,,,Remove
+lutris,Apps,,,Add
+mangohud,Utilities,"steam, lutris",,Add
 micro,Utilities,,,Add
 openrgb-udev-rules,Devices,,,Test
+steam,Apps,,,Add
 util-linux-user,Utilities,,chsh,Add
 zram-generator,Config,,[swap],Remove
 zram-generator-defaults,Config,zram-generator,[swap],Remove
